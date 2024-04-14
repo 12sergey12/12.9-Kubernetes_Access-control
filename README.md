@@ -143,7 +143,7 @@ root@baranov:/home/baranovsa/kube2.4#
 
 3. Создайте роли и все необходимые настройки для пользователя.
 
-[role.yaml]()
+[role.yaml](https://github.com/12sergey12/12.9-Kubernetes_Access-control/blob/main/role.yaml)
 
 ```
 apiVersion: rbac.authorization.k8s.io/v1
@@ -157,7 +157,7 @@ rules:
   verbs: ["watch", "list", "get"]
 ```
 
-[role_binding.yaml]()
+[role_binding.yaml](https://github.com/12sergey12/12.9-Kubernetes_Access-control/blob/main/role_binding.yaml)
 
 ```
 apiVersion: rbac.authorization.k8s.io/v1
@@ -240,9 +240,9 @@ root@baranov:/home/baranovsa/kube2.4#
 
 5. Предоставьте манифесты и скриншоты и/или вывод необходимых команд.
 
-[role.yaml]()
+[role.yaml](https://github.com/12sergey12/12.9-Kubernetes_Access-control/blob/main/role.yaml)
 
-[role_binding.yaml]()
+[role_binding.yaml](https://github.com/12sergey12/12.9-Kubernetes_Access-control/blob/main/role_binding.yaml)
 
 
 
